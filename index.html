@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Business Model Sprint 101</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue: #0066cc;
+      --orange: #ff6600;
+      --gray: #555;
+      --bg: #f9f9fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--gray);
+    }
+    header {
+      background: var(--blue);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+      background-image: url('banner-placeholder.jpg'); /* Replace this with your banner */
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+    header h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: var(--blue);
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 1rem;
+    }
+    .faculty {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .faculty img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--orange);
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .register {
+      text-align: center;
+    }
+    .register a.button {
+      display: inline-block;
+      background: var(--orange);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .register a.button:hover {
+      background: var(--blue);
+    }
+    .qr {
+      margin-top: 1rem;
+    }
+    .qr img {
+      width: 120px;
+      height: 120px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: var(--gray);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 1.8rem; }
+      .faculty { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 Startup Business Model Sprint 101</h1>
+    <p>📍 Noida | 📅 December 2025 & January 2026</p>
+  </header>
+
+  <main>
+    <section class="faculty">
+      <img src="faculty-photo.jpg" alt="Faculty Photo"> <!-- Replace with your faculty photo -->
+      <div>
+        <h2>👤 Faculty</h2>
+        <p><strong>Arun Gupta</strong><br>
+        Adjunct Faculty of Strategy, Innovation & Entrepreneurship<br>
+        PGDM, IIM Lucknow | BTech, IIT Kharagpur<br>
+        10+ years in higher education, 30+ years in industry<br>
+        Ex-Head, Executive Education, IIM Ahmedabad<br>
+        Ex-Associate Director, Shiv Nadar Institution of Eminence<br>
+        Visiting Faculty: IIFT, IMT, DTU, JGU, BMU</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>📚 Key Learnings</h2>
+      <ul>
+        <li>Foundations & applications of Design Thinking</li>
+        <li>Problem framing, empathy mapping & user insights</li>
+        <li>Creativity & ideation techniques (ADRAI, brainstorming)</li>
+        <li>Prototyping & experimentation (physical / digital)</li>
+        <li>Testing, iteration & feedback-driven refining</li>
+        <li>Hands-on case studies, group work & field exercises</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🌟 Workshop Highlights</h2>
+      <ul>
+        <li>Real industry case studies (e.g. IDEO)</li>
+        <li>Group breakout sessions, fieldwork & interactive exercises</li>
+        <li>Full sprint flow: idea → prototype → test</li>
+        <li>Mentorship & real-time feedback from faculty</li>
+      </ul>
+    </section>
+
+    <section class="register">
+      <h2>📌 Registration & Contact</h2>
+      <p>Connect & register via LinkedIn:</p>
+      <a href="https://www.linkedin.com/in/arungupta5297" class="button">Visit LinkedIn Profile</a>
+      <div class="qr">
+        <p>Or scan to register via Google Form:</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://forms.gle/EzU9HMRFPh2k4nD36" alt="Google Form QR Code">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Startup Business Model Sprint 101 | Designed for educational use</p>
+  </footer>
+</body>
+</html>
